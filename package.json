@@ -1,0 +1,23 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "contributors": [
+    {
+      "name": "Milad E. Fahmy <miladezzat>",
+      "email": "miladezzat.f@gmail.com"
+    }
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miladezzat/spa-from-scratch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miladezzat/spa-from-scratch/issues"
+  },
+  "homepage": "https://github.com/miladezzat/spa-from-scratch#readme"
+}
