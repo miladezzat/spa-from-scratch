@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <script>
+        window.onpopstate = function (event) {
+            alert(`location: ${document.location}, state: ${JSON.stringify(event.state)}`)
+        }
+    </script>
+</head>
+
+<body onload="clickOnLink(location.pathname)">
+    <nav id="navbar">
+        <p onclick="clickOnLink('home.html')" class="link">Home</p>
+        <p onclick="clickOnLink('p2.html')" class="link">P2</p>
+        <p onclick="clickOnLink('p3.html')" class="link">P3</p>
+    </nav>
+    <div id="content"></div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
